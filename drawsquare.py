@@ -1,0 +1,20 @@
+import turtle
+turtle.showturtle()
+thenumber = turtle.numinput('','Enter a number: ')
+def Drawsquare( ):
+ turtle.forward(thenumber)
+ turtle.left(90)
+ turtle.forward(thenumber)
+ turtle.left(90)
+ turtle.forward(thenumber)
+ turtle.left(90)
+ turtle.forward(thenumber)
+ turtle.left(90)
+Drawsquare()
+turtle.left(30)
+Drawsquare()
+turtle.left(30)
+Drawsquare()
+turtle.left(30)
+turtle.Drawsquare
+turtle.left(90)
