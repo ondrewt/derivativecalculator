@@ -1,20 +1,20 @@
 import turtle
-turtle.showturtle()
-thenumber = turtle.numinput('','Enter a number: ')
+def main():
+    turtle.showturtle()
+    rotations = turtle.numinput('','Enter a number: ')
+    number = 0
+    while rotations > number:
+    print ("Drawsquare")
+    number = number + 1
+
 def Drawsquare( ):
- turtle.forward(thenumber)
- turtle.left(90)
- turtle.forward(thenumber)
- turtle.left(90)
- turtle.forward(thenumber)
- turtle.left(90)
- turtle.forward(thenumber)
- turtle.left(90)
-Drawsquare()
-turtle.left(30)
-Drawsquare()
-turtle.left(30)
-Drawsquare()
-turtle.left(30)
-turtle.Drawsquare
-turtle.left(90)
+    rotationangle = 360 / rotations
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.left(rotationangle)
